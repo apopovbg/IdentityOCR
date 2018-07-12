@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'IdentityOCR_Example' do
+  pod 'IdentityOCR', :path => '../'
+
+  target 'IdentityOCR_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
