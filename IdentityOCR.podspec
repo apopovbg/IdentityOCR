@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IdentityOCR'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'IdentityOCR submodule description.'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   #   'IdentityOCR' => ['IdentityOCR/Assets/*.png']
   # }
 
-   s.public_header_files = 'IdentityOCR/Classes/**/.h'
+   s.public_header_files = 'IdentityOCR/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
