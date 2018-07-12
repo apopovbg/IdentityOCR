@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IdentityOCR'
-  s.version          = '0.6.0'
+  s.version          = '0.7.0'
   s.summary          = 'IdentityOCR submodule description.'
 
 # This description is used to generate tags and improve search results.
@@ -37,8 +37,8 @@ Pod::Spec.new do |s|
   # }
 
     s.public_header_files = 'IdentityOCR/Classes/**/*.h'
-    #s.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'IDENTITY_OCR' => 'YES' }Classes
-    s.user_target_xcconfig = { 'IDENTITY_OCR' => 'YES' }
+    s.user_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) IDENTITY_OCR=1'}
+    #s.user_target_xcconfig = { 'IDENTITY_OCR' => 'YES' }
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
