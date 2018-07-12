@@ -7,6 +7,7 @@
 //
 
 #import "IVViewController.h"
+#import <IdentityOCR/IdentityOCRClass.h>
 
 @interface IVViewController ()
 
@@ -17,7 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    IdentityOCRClass *testClass = [IdentityOCRClass new];
+    [testClass soemAction];
 }
 
 - (void)didReceiveMemoryWarning

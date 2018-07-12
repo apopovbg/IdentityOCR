@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   #   'IdentityOCR' => ['IdentityOCR/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+   s.public_header_files = 'IdentityOCR/Classes/**/.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
